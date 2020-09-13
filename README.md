@@ -1,5 +1,5 @@
 # thu_courses2ics
-清华大学课表转换为.ics文件的工具，可直接把课表导入Apple、outlook、华为等系统日历，随手查看。
+清华大学本科生课表转换为.ics文件的工具，可直接把课表导入Apple、outlook、华为等系统日历，随手查看。
 
 ## 使用方法/Usage
 0. clone repository：下载整个repos到本地
