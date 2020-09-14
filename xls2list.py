@@ -14,7 +14,7 @@ class CourseLogger(object):
 
     def _get_records(self):
         records = np.array(p.get_sheet(file_name=self.xls_path))
-        self.courses_np = records[2:7, 1:8]
+        self.courses_np = records[2:8, 1:8]
 
     def _string2span(self, string):
         if '全周' in string:
@@ -24,7 +24,7 @@ class CourseLogger(object):
         elif '后八周' in string:
             return 9, 16
         else:
-            return tuple(string[:-1].split('-'))
+            return tuple(map(int, string[:-1].split('-')))
 
     def _parse_course_string(self, string):
         string = str(string)

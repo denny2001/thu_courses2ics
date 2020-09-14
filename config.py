@@ -1,5 +1,5 @@
-XLS_PATH = './data/denny.xls'  # info上下载的xls文件路径
-ICS_PATH = './data/denny.ics'  # .ics文件保存路径
+XLS_PATH = './data/null.xls'  # info上下载的xls文件路径
+ICS_PATH = './data/courses.ics'  # .ics文件保存路径
 
 START_OF_SEMESTER = '2020-09-14'  # 第一周的星期一
 
